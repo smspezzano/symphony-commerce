@@ -1,0 +1,41 @@
+.nye-countdown {
+  background-color: #ecf0f1;
+  text-align: center;
+  /* Small devices (tablets, 768px and down) */
+}
+.nye-countdown .no-padding-left-right {
+  padding-left: 0;
+  padding-right: 0;
+}
+.nye-countdown .countdown-wrapper {
+  margin-top: 50px;
+}
+.nye-countdown .countdown-wrapper .countdown-wrapper__count {
+  color: #7f8c8d;
+  border-top: 1px solid #e74c3c;
+  border-bottom: 1px solid #e74c3c;
+  font-size: 3em;
+  height: 90px;
+  line-height: 90px;
+}
+.nye-countdown .countdown-wrapper .countdown__title {
+  color: #a8a9aa;
+}
+.nye-countdown .countdown-wrapper .countdown-wrapper__days {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+.nye-countdown .countdown-wrapper .countdown-wrapper__seconds {
+  border-right: 1px solid #e74c3c;
+}
+.nye-countdown .countdown-wrapper .countdown-wrapper__title {
+  color: #a8a9aa;
+}
+.nye-countdown .nye-gif-wrapper {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .nye-countdown .countdown-wrapper .countdown-wrapper__count {
+    font-size: 2em;
+  }
+}

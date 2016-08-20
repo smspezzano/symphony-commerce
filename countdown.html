@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NYE Countdown</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/countdown.css">
+</head>
+
+<body class="nye-countdown" >
+
+    <div class="container countdown-wrapper">
+        <div class="row">
+            <div class="col-xs-3 no-padding-left-right">
+                <div class="">
+                    <div class="col-xs-12 no-padding-left-right countdown-wrapper__count countdown-wrapper__days">
+                        00
+                    </div>
+                    <div class="col-xs-12 countdown__title">
+                        <span class="hidden-xs">DAYS</span>
+                        <span class="visible-xs">D</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 no-padding-left-right">
+                <div class="">
+                    <div class="col-xs-12 no-padding-left-right countdown-wrapper__count countdown-wrapper__hours">
+                        00
+                    </div>
+                    <div class="col-xs-12 countdown__title">
+                        <span class="hidden-xs">HOURS</span>
+                        <span class="visible-xs">H</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 no-padding-left-right">
+                <div class="">
+                    <div class="col-xs-12 countdown-wrapper__count countdown-wrapper__minutes">
+                        00
+                    </div>
+                    <div class="col-xs-12 countdown__title">
+                        <span class="hidden-xs">MINUTES</span>
+                        <span class="visible-xs">M</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 no-padding-left-right">
+                <div class="">
+                    <div class="col-xs-12 countdown-wrapper__count countdown-wrapper__seconds">
+                        00
+                    </div>
+                    <div class="col-xs-12 countdown__title">
+                        <span class="hidden-xs">SECONDS</span>
+                        <span class="visible-xs">S</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nye-gif-wrapper" style="display: none;">
+        <img src="https://media.giphy.com/media/fGkOjDuKUlNBK/giphy.gif">
+    </div>
+
+    <script src="vendor/js/jquery-3.1.0.min.js"></script>
+    <script src="vendor/js/moment.min.js"></script>
+    <script src="vendor/js/moment-timezone-with-data-2010-2020.min.js"></script>
+    <script src="countdown.js"></script>
+
+</body>
+
+</html>
